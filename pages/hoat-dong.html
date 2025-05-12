@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoạt Động Nhà Trường - Trang Web Mẫu</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <!-- Re-use header -->
+        <div class="top-bar">
+            <div class="container">
+                <a href="#"><img src="../images/tensohcmedu.png" alt="HCM-EDU Logo"></a>
+                <div class="top-links">
+                    <a href="#">Phòng GD&ĐT Tp. Phú Quốc</a>
+                    <a href="#">Khối THPT</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <!-- Single banner replacing logo and old banner -->
+                <div class="combined-banner">
+                     <a href="../index.html">
+                         <img src="../images/baner-thpt-phu-quoc.jpg" alt="Banner Trường" style="display: block; width: 100%; height: auto;">
+                     </a>
+                     <!-- School info hidden for accessibility -->
+                     <div class="school-info-hidden" style="position: absolute; left: -9999px;">
+                        <h1>TRƯỜNG TRUNG HỌC PHỔ THÔNG PHÚ QUỐC</h1>
+                        <p>Địa chỉ: 18 Hùng Vương, Kp. 11, P. Dương Đông, Tp. Phú Quốc, T. Kiên Giang</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="../index.html">TRANG CHỦ</a></li>
+                    <li><a href="gioi-thieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="tin-tuc.html">TIN TỨC SỰ KIỆN</a></li>
+                    <li><a href="cong-khai.html">CÔNG KHAI</a></li>
+                    <li><a href="hanh-chinh.html">HÀNH CHÍNH</a></li>
+                    <li><a href="tuyen-truyen.html">TUYÊN TRUYỀN PHÁP LUẬT</a></li>
+                    <li><a href="hoat-dong.html" class="active">HOẠT ĐỘNG NHÀ TRƯỜNG</a></li>
+                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                </ul>
+                <div class="nav-right">
+                     <a href="#"><img src="../images/RSS.svg" alt="RSS"></a>
+                     <a href="#"><img src="../images/eng.svg" alt="English"></a>
+                     <input type="text" placeholder="Từ khóa tìm kiếm">
+                     <button>Tìm</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>HOẠT ĐỘNG NHÀ TRƯỜNG</h2>
+            <p>Đây là trang hoạt động nhà trường.</p>
+            <!-- Example content structure -->
+            <div class="activity-gallery">
+                <div class="activity-item">
+                    <img src="../images/hoatdong1.jpg" alt="Hoạt động 1">
+                    <p>Trường THPT Phú Quốc Long Trọng Tổ Chức Lễ Kỉ Niệm 40 Năm Ngày Nhà Giáo Việt Nam 20/11/2024</p>
+                </div>
+                 <div class="activity-item">
+                    <img src="../images/hoatdong2.jpg" alt="Hoạt động 2">
+                    <p>Hội Diễn Văn Nghệ Trường THPT Phú Quốc</p>
+                </div>
+                 <div class="activity-item">
+                    <img src="../images/hoatdong3.jpg" alt="Hoạt động 3">
+                    <p>Học Sinh Trường THPT Phú Quốc Tham Gia Hoạt Động Ngoại Khóa - Trải Nghiệm - Sáng Tạo</p>
+                </div>
+            </div>
+            <style>
+                .activity-gallery {
+                    display: flex; /* Or grid */
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+                .activity-item {
+                    border: 1px solid #ddd;
+                    padding: 10px;
+                    text-align: center;
+                    background-color: #fff;
+                }
+                .activity-item img {
+                    max-width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+                }
+            </style>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Re-use footer -->
+        <div class="container">
+             <div class="footer-nav">
+                 <ul>
+                    <li><a href="../index.html">TRANG CHỦ</a></li>
+                    <li><a href="gioi-thieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="tin-tuc.html">TIN TỨC SỰ KIỆN</a></li>
+                    <li><a href="cong-khai.html">CÔNG KHAI</a></li>
+                    <li><a href="hanh-chinh.html">HÀNH CHÍNH</a></li>
+                    <li><a href="tuyen-truyen.html">TUYÊN TRUYỀN PHÁP LUẬT</a></li>
+                    <li><a href="hoat-dong.html">HOẠT ĐỘNG NHÀ TRƯỜNG</a></li>
+                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <img src="../images/logo.png" alt="Logo Trường">
+                <p>Website trường THPT Phú Quốc</p>
+                <p>Facebook: https://www.facebook.com/THPT.PhuQuoc</p>
+                <p>18 Hùng Vương, Kp.11, P.Dương Đông, Tp.Phú Quốc, T.Kiên Giang</p>
+                <p>ĐT: 02973.846.094</p>
+            </div>
+            <div class="copyright">
+                <p>© Bản quyền thuộc THPT Phú Quốc - vixphuquoc.io.vn</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
